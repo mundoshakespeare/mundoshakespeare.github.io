@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Shakespeare Studios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="shakespeare-studios-sesiones.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="text-center">
+      <h2>¡LUCES, CAMARA, ACCIÓN!</h2>
+    </div>
+
+    <div class="popup">
+      <span>Información</span>
+    </div>
+
+    <div class="contenedor-bubble-julieta">
+      <img id="julieta" class="iconNina" src="imagenes/nina.png" alt="Imagen de Julieta">
+      <p  id="julietaSpeech" style="margin-top:50px" class="bubble bubble-bottom-left">¡Muy bien aventurero! has llegado a la recta final de esta aventura. Luego de haber leido esta maravillosa historia es momento para que muestres tu talento. Mira el video a continuación y sabrás qué es lo que debes hacer.</p>
+    </div>
+
+    <section id="">
+      <div style="height:715px" class="contenedor-recursos contenedor-bordes">
+            <div class="">
+              <iframe width="100%" height="690" src="https://www.youtube.com/embed/sQwxX0wtmOg"></iframe>
+            </div>
+            <h6> &#10230; En este <a target="_blank" href="https://padlet.com/jordifabianwilches/mwyvw5evwota9gjc">enlace</a> puedes subir tu pieza artística.</h6>
+      </div>
+
+      <div style="height:100px"></div>
+      <div class="">
+        <h4>Para animarte  e inspirarte a realizar tu obra artística, cuentanos sobre  lo que sentiste al leer la obra. Entra a este padlet y revisa la actividad.</h4>
+        <iframe src="https://padlet.com/onlybygracenataly/ohj00ap8jsdn300o" height="750px" width="100%" title="Enlace a padlet"></iframe>
+      </div>
+    </section>
+
+    <div style = "height:50px"></div>
+    <a id="botonContinuar" href="tesoro-shylock.html" class="btn btn-dark btn-lg">Continuar</a>
+    <div style = "height:100px"></div>
+
+
+  <script type="text/javascript">
+    let julietaSpeech = document.getElementById('julieta');
+
+  julietaSpeech.addEventListener('mouseover', function(){
+    document.getElementById('julietaSpeech').style.visibility = "visible";
+    document.querySelector('.popup').style.visibility = "hidden";
+  });
+
+  julietaSpeech.addEventListener('mouseout', function(){
+    document.getElementById('julietaSpeech').style.visibility = "hidden";
+  });
+  </script>
+  </body>
+</html>

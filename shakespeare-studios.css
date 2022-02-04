@@ -1,0 +1,191 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+body{
+  background-image: url('imagenes/shakespeare-studios.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+
+
+h3{
+    background-color: rgb(0, 0, 0, 0.2);
+    border: 2px solid #transparent;
+    text-align: center;
+
+    font-family: 'Kaushan Script', cursive;
+    color: #FFE699;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    width: 80%;
+    margin: 50px auto;
+    padding: 3% 1%;
+}
+
+
+h4{
+  padding: 3% 300px 3%;
+  font-family: 'Merriweather', serif;
+  color:#F4DFBA;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#section1{
+  height:550px;
+}
+
+#section2{
+  position: relative;
+  margin: 0 auto;
+  width:80%;
+  height:500px;
+
+}
+
+#section3{
+  padding-top: 50px;
+  height:500px;
+}
+
+#inicioChat{
+  position:absolute;
+  font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  padding: 10px 20px;
+  top: 300px;
+  left: 70%;
+}
+
+#inicioChat:hover{
+background-color: #C2B8A3;
+}
+
+#botonContinuar{
+    float:right;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+#botonContinuar:hover{
+  background-color: #C2B8A3;
+  cursor: pointer;
+}
+
+.btn-grupo{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-outline-primary{
+  line-height: 2rem;
+  border-color: #EEC373;
+  color: #EEC373;
+}
+
+.btn-outline-primary:hover{
+  border-color: #EEC373;
+  background-color: #EEC373;
+  color: #57837B;
+}
+
+.btn-outline-primary:focus{
+
+
+}
+
+.contenedor-video{
+  width:750px;
+  margin: 0 auto;
+}
+
+
+.iconNina1{
+  width: 10%;
+  position: relative;
+  top: 220px;
+
+}
+
+.iconNina2{
+  width: 25%;
+  position: relative;
+  top: 0px;
+  left: 50px;
+}
+
+.contenedor-bubble1{
+  margin: 0 auto;
+}
+
+.contenedor-video2{
+  display: inline-block;
+  width:500px;
+  position:relative;
+  left:15%;
+
+}
+
+.contenedor-bubble2{
+display: inline-block;
+position:relative;
+left:20%;
+top:10%;
+}
+
+.bubble {
+  position: relative;
+  bottom:70px;
+  right:140px;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  width: 250px;
+  background: #fff;
+  border-radius: 40px;
+  padding: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.bubble-bottom-left:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 24px solid #fff;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #fff;
+  border-bottom: 20px solid transparent;
+  left: 32px;
+  bottom: -24px;
+}
+
+.bubble-bottom-right:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 30px solid transparent;
+  border-right: 24px solid #fff;
+  border-top: 24px solid #fff;
+  border-bottom: 20px solid transparent;
+  right: 32px;
+  bottom: -24px;
+}
+
+.bubble2{
+  position: relative;
+  bottom: 270px;
+  left:20px;
+}
+
+#burbuja-texto{
+margin: 0 auto;
+}

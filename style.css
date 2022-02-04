@@ -1,0 +1,259 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather&display=swap');
+
+
+
+body{
+  /*background-color: #515E63;*/
+}
+
+#section1{
+  background-image: url('imagenes/fondo-shakespeare1.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#section2{
+  position:relative;
+  background-image: url('imagenes/fondo-shakespeare2.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#section3{
+  background-image: url('imagenes/fondo-shakespeare3.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#section4{
+  background-image: url('imagenes/fondo-shakespeare4.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#section5{
+  background-image: url('imagenes/fondo-shakespeare5.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#inicioChat{
+  position:absolute;
+  font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  padding: 10px 20px;
+  top: 400px;
+  left: 80%;
+}
+
+#inicioChat:hover{
+background-color: #C2B8A3;
+}
+
+#botonContinuar{
+    float:right;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+#botonContinuar:hover{
+  background-color: #C2B8A3;
+  cursor: pointer;
+}
+
+h3{
+  background-color: rgb(0, 0, 0, 0.7);
+  border: 2px solid #966C3B;
+  text-align: center;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(3px);
+  font-family: 'Kaushan Script', cursive;
+  color: #FFE699;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  width: 80%;
+  margin:0 auto;
+  padding: 3% 1%;
+}
+
+h4{
+  background-color: rgb(0, 0, 0, 0.3);
+  border: 2px solid gray;
+  text-align: center;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(3px);
+  font-family: 'Kaushan Script', cursive;
+  color: #FFE699;
+  font-size: 4rem;
+  line-height: 1.5;
+  width: 80%;
+  margin:0 auto;
+}
+
+h5{
+  background-color: rgb(0, 0, 0, 0.5);
+  border: 5px solid rgb(50, 50, 50, 0.2);
+  border-radius: 50px;
+  text-align: center;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(3px);
+  font-family: 'Kaushan Script', cursive;
+  color: #FFE699;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  width: 80%;
+  margin:0 auto;
+}
+
+.titulo{
+
+}
+
+.textoShakespeare{
+  margin: 3% auto;
+  font-family: 'Merriweather', serif;
+  color: #C9D8B6;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.textoShakespeare:hover{
+  color:#EEC373;
+}
+
+.btnSiguiente{
+  position: absolute;
+  right: 4rem;
+  bottom: 4rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+.contenedor-video1{
+background-color: #222;
+display: inline-block;
+position: relative;
+left: 100px;
+border: 5px solid #F5F7B2;
+border-radius: 10px;
+}
+
+
+.iconShakespeare{
+  width: 50%;
+  position: relative;
+  top: 200px;
+
+}
+
+.contenedor-bubble1{
+  display: inline-block;
+  width: 20%;
+}
+
+
+.bubble {
+  position: relative;
+  bottom:200px;
+  left: 80px;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  width: auto;
+  background: #fff;
+  border-radius: 40px;
+  padding: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.bubble-bottom-left:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 24px solid #fff;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #fff;
+  border-bottom: 20px solid transparent;
+  left: 32px;
+  bottom: -24px;
+}
+
+
+.contenedor-video2{
+display: inline-block;
+position: relative;
+left: 150px;
+top: 100px;
+background-color: #222;
+border: 5px solid #DBD0C0;
+border-radius: 10px;
+}
+
+.contenedor-bubble2{
+  display: inline-block;
+  position:relative;
+  top:50px;
+  left:230px;
+  width: 20%;
+}
+
+.bubble2{
+position:relative;
+bottom: 140px;
+right: 10px;
+}
+
+
+
+.contenedor-video3{
+display: inline-block;
+position: relative;
+left: 350px;
+top: 100px;
+background-color: #222;
+border: 5px solid #9D5C0D;
+border-radius: 10px;
+}
+
+.contenedor-bubble3{
+  display: inline-block;
+  position:relative;
+  bottom:15px;
+  left:200px;
+  width: 20%;
+}
+
+.bubble3{
+  position:relative;
+  bottom: 100px;
+}
+
+
+
+.contenedor-educaplay{
+text-align: center;
+}
+
+.contenedor-formulario{
+text-align: center;
+}
+
+/* right speech
+p.speech:before {
+	right: 30px;
+	bottom: -50px;
+	border: 25px solid;
+	border-color: #333 #333 transparent transparent;
+}
+
+p.speech:after {
+	right: 38px;
+	bottom: -30px;
+	border: 15px solid;
+	border-color: #fff #fff transparent transparent;
+}*/

@@ -1,0 +1,370 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+body{
+  background-image: url('imagenes/shakespeare-studios.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  z-index: 0;
+}
+
+h2{
+    background-color: rgb(0, 0, 0, 0.0);
+
+    text-align: center;
+
+    font-family: 'Kaushan Script', cursive;
+    color: #FFE699;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    width: 80%;
+    margin:0 auto;
+    padding: 3% 1%;
+  }
+
+h4{
+  padding: 6% 300px 3%;
+  font-family: 'Merriweather', serif;
+  color:#F4DFBA;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h6{
+  padding: 3% 3%;
+  font-family: 'Merriweather', serif;
+  color:#F4DFBA;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+#sesion1{
+  display: initial;
+}
+
+#sesion2{
+  display: none;
+}
+
+#sesion3{
+  display: none;
+}
+
+#julietaSpeech{
+  visibility: hidden;
+}
+
+#romeoSpeech{
+  visibility: hidden;
+}
+
+#romeoSpeech2{
+  visibility: hidden;
+}
+
+#romeoSpeech3{
+  visibility: hidden;
+}
+#romeoSpeech4{
+  visibility: hidden;
+}
+
+#romeoSpeech5{
+  visibility: hidden;
+}
+
+#romeoSpeech6{
+  visibility: hidden;
+}
+
+#romeoSpeech7{
+  visibility: hidden;
+}
+
+#romeoSpeech8{
+  visibility: hidden;
+}
+
+#romeoSpeech9{
+  visibility: hidden;
+}
+
+#romeoSpeech10{
+  visibility: hidden;
+}
+
+#romeoSpeech11{
+  visibility: hidden;
+}
+
+#forward{
+  background-color: white;
+  width: 50%;
+  height: 100px;
+  font-size: 3rem;
+  position:relative;
+  left: 480px;
+  bottom:210px;
+}
+
+#forward:hover{
+  background-color: #222;
+}
+
+#backward{
+  background-color: white;
+  width: 50%;
+  height:100px;
+  font-size: 3rem;
+  position:relative;
+  bottom: 110px;
+}
+
+#backward:hover{
+  background-color: #222;
+}
+
+#botonContinuar{
+    float:right;
+    margin-right:30px;
+
+}
+
+#botonContinuar:hover{
+  background-color: #C2B8A3;
+  cursor: pointer;
+
+}
+
+
+.popup{
+  visibility: visible;
+  background-color: white;
+  width:120px;
+  text-align: center;
+  border-radius: 7px;
+  padding: 20px 5px;
+  position:absolute;
+  top:210px;
+  left: 30px;
+}
+
+.popup:after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+
+.popup2{
+  visibility: visible;
+  background-color: white;
+  width:120px;
+  text-align: center;
+  border-radius: 7px;
+  padding: 20px 5px;
+  position:absolute;
+  top:210px;
+  right: 20px;
+}
+
+.popup2:after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+
+.btn-grupo{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-outline-primary{
+  line-height: 2rem;
+  border-color: #EEC373;
+  color: #EEC373;
+}
+
+.btn-outline-primary:hover{
+  border-color: #EEC373;
+  background-color: #EEC373;
+  color: #57837B;
+}
+
+
+
+.contenedor-recursos{
+  width:77%;
+  height:805px;
+  margin: 0 auto;
+  background-color: #222;
+}
+
+.contenedor-recursos-botones{
+  width:75%;
+  height:100px;
+  margin: 0 auto;
+}
+
+.contenedor-back{
+  position: relative;
+  bottom: 300px;
+}
+
+.contenedor-forward{
+  position: relative;
+  bottom:300px;
+}
+
+.contenedor-bordes{
+  border: 12px solid black;
+  border-radius: 10px;
+}
+
+.contenedor-first{
+display: inline-block;
+width:100%;
+height:690px;
+overflow:scroll;
+}
+
+.contenedor-second{
+display: none;
+width:100%;
+overflow:scroll;
+}
+
+.contenedor-third{
+display: none;
+width: 100%;
+overflow:scroll;
+}
+
+.contenedor-fourth{
+display: none;
+width: 100%;
+overflow:scroll;
+}
+
+.contenedor-first-s2{
+display: none;
+width:100%;
+height:690px;
+}
+
+.contenedor-second-s2{
+display: none;
+width:100%;
+}
+
+.contenedor-third-s2{
+display: none;
+width: 100%;
+}
+
+.contenedor-fourth-s2{
+display: none;
+width: 100%;
+}
+
+
+.iconNina{
+  width: 20%;
+}
+
+.iconRomeo{
+  width: 30%;
+}
+
+.contenedor-bubble-julieta{
+  position:absolute;
+  top: 300px;
+  left: 3%;
+  width: auto;
+}
+.contenedor-bubble-romeo{
+  position:absolute;
+  top: 300px;
+  left: 89%;
+  width: auto;
+  height: 300px;
+}
+
+.contenedor-navegador{
+  display: inline-block;
+  width: auto;
+
+}
+
+.bubble {
+  position: relative;
+  bottom:370px;
+  left:30px;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  line-height: 24px;
+  width: 350px;
+  background: #fff;
+  border-radius: 40px;
+  padding: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.bubble-bottom-left:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 24px solid #fff;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #fff;
+  border-bottom: 20px solid transparent;
+  left: 32px;
+  bottom: -24px;
+}
+
+.bubble2 {
+  position: relative;
+  bottom:250px;
+  right:280px;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  line-height: 24px;
+  width: 350px;
+  background: #fff;
+  border-radius: 40px;
+  padding: 24px;
+  text-align: center;
+  color: #000;
+}
+.bubble-bottom-right:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 30px solid transparent;
+  border-right: 24px solid #fff;
+  border-top: 24px solid #fff;
+  border-bottom: 20px solid transparent;
+  right: 32px;
+  bottom: -24px;
+}
+
+.container{
+  width: 30%;
+}
