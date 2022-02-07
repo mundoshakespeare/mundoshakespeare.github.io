@@ -215,9 +215,10 @@ h6{
 }
 
 .contenedor-recursos-botones{
-  width:75%;
+  width:77%;
   height:100px;
   margin: 0 auto;
+  padding-left:9px;
 }
 
 .contenedor-back{
